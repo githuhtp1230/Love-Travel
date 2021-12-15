@@ -1,0 +1,128 @@
+/* Beach container */
+.beach-container {
+    width: calc(100% / 3);
+    float: left;
+}
+
+/* Beach wrap */
+.beach-container .beach-wrap {
+    margin: 20px 35px 20px 15px;
+}
+
+.beach-wrap .section-heading .underline-effect::before {
+    background-color: #14b9d5;
+}
+
+.beach-wrap .beach-paragraph {
+    color: #9a9a9a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+/* Price wrap */
+.beach-wrap .price-wrap {
+    margin-top: 21px;
+    letter-spacing: 1px;
+}
+
+.beach-wrap .price {
+    font-size: 30px;
+}
+
+.beach-wrap .cost-origin {
+    text-decoration: line-through;
+    color: #dadada;
+}
+
+.beach-wrap .cost-sale {
+    color: #555555;
+}
+
+.beach-wrap .forPerson {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #555555;
+}
+
+.beach-wrap .bookNow {
+    margin-top: 27px;
+    padding: 15px 35px;
+    text-decoration: none;
+    background-color: #1bbc9b;
+    border-radius: 30px;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.beach-wrap .bookNow:hover {
+    transform: scale(1.05)
+}
+
+/* Beach background */
+.beach-background-container {
+    width: calc(100% / 3 * 2);
+    float: left;
+}
+
+.beach-background-wrap {
+    margin: 20px 15px 20px 35px;
+}
+
+.beach-background {
+    background: url(../img/content/the_best_beachs/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 750px;
+    height: 410px;
+}
+
+
+/* Time */
+.time-list {
+    width: 490px;
+    text-align: center;
+    background-color: #14b9d5;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: calc(-115px / 2);
+}
+
+.time-list .time-item {
+    width: 25%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.time-list .time-item::after {
+    content: '/';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    opacity: 0.08;
+    color: #000;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.time-list .time-number {
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.time-list .time-unit {
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 7px;
+}

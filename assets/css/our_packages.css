@@ -1,0 +1,188 @@
+/* Our packages container */
+.our-packages-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.our-packages-container .underline-effect::before {
+    background-color: #1bbc9b;
+}
+
+.our-packages-container .our-packages-wrap {
+    margin-top: 35px;
+}
+
+/* Our packages list */
+.our-packages-container .our-packages-list {
+    display: flex;
+}
+
+/* Our package item wrap */
+.our-packages-list .our-package-item-wrap {
+    width: calc(100% / 3);
+    padding: 15px;
+}
+
+/* Our package item */
+.our-package-item {
+    border: 1px solid #e6e6e6;
+}
+
+.sale-btn {
+    position: absolute;
+    font-size: 13px;
+    line-height: 13px;
+    color: white;
+    padding: 4.5px 14px;
+    background: #555555;
+    border-radius: 30px;
+    right: 20px;
+    top: 20px;
+}
+
+.our-package-item .pack-img-icon-container {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 12px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.our-package-item .pack-img-icon {
+    width: 26px;
+}
+
+.our-package-item .package-img {
+    width: 100%;
+}
+
+.our-package-item .package-place {
+    margin-bottom: 16px;
+}
+.our-package-item .package-place p {
+    color: #555555;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.our-package-item .package-place span {
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 15px;
+    display: inline-block;
+}
+
+.our-package-item .package-place i {
+    width: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #757575;
+}
+
+.our-package-item .package-cost {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.our-package-item .package-cost a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555555;
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 13px;
+    display: inline-block;
+}
+
+.our-package-item .package-cost a:hover {
+    text-decoration: revert;
+}
+
+.our-package-item .package-cost .plus-ticket {
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2.5px 10.2px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 6px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.our-package-item .plus-ticket .hover-info-package {
+    position: absolute;
+    top: 200%;
+    left: 8%;
+    transform: scale(0);
+    transform-origin: 14px 0;
+    transition: 0.2s all ease-in-out;
+    opacity: 0;
+}
+
+.our-package-item .plus-ticket:hover .hover-info-package {
+    display: block;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.our-package-item .plus-ticket .hover-info-package:hover {
+    transform: scale(0);
+}
+
+.our-package-item .plus-ticket .hover-info-title {
+    display: inline-block;
+    font-size: 11px;
+    background-color: #555555;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 13px 12px;
+}
+
+.our-package-item .package-cost-item {
+    text-align: right;
+    margin-top: 8px;
+}
+.our-package-item .package-cost .package-before-sale {
+    font-size: 20px;
+    color: #9a9a9a;
+    text-decoration: line-through;
+    margin-right: 3px;
+}
+
+.our-package-item .package-cost .package-no-sale {
+    color: #555555;
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.our-package-item .our-package-desc {
+    color: #9a9a9a;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.our-package-item .our-package-details {
+    display: inline-block;
+    background: #ffd205;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+.our-package-item .our-package-details:hover {
+    transform: scale(1.05);
+}

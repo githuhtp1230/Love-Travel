@@ -1,0 +1,130 @@
+/* Our destination section */
+.our-destination {
+    margin: 60px 0;
+}
+
+.our-destination .underline-effect::before {
+    background-color: #1bbc9b;
+}
+
+/* Our Destination list */
+.our-destination-item {
+    width: calc(100% / 3);
+    float: left;
+    text-align: unset;
+}
+
+.our-destination-item .destination-img-container {
+    position: relative;
+    margin: 15px;
+    display: block;
+}
+
+.our-destination-item .destination-img {
+    width: 100%;
+}
+
+.our-destination-item .destination-cover {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.38) 0%, rgba(0,0,0,0) 40%);
+}
+
+.our-destination-item .des-item-icon {
+    width: 35px;
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 16px;
+}
+
+.our-destination-item .destination-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+    color: white;
+}
+
+.our-destination-item .location {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.our-destination-item .packages-quantity {
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 2px;
+}
+
+/* Destination View */
+.destination-view {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #14B9D5;
+    z-index: 0;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.destination-img-container:hover .destination-view {
+    opacity: 1;
+    z-index: 2;
+}
+
+.destination-view .destination-view-cover p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.destination-view .destination-view-cover a {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.destination-view .destination-view-cover {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.destination-view .place a {
+    color: white;
+    letter-spacing: 1px;
+    padding: 3px 0;
+}
+
+.destination-view .place a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.destination-view a.destination-view-next {
+    padding: 5px 20px;
+    color: #14b9d5;
+    background-color: white;
+    display: inline-block;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+.destination-view .destination-view-next:hover {
+    transform: scale(1.05);
+}

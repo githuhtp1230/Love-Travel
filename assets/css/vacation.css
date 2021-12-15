@@ -1,0 +1,110 @@
+
+/* Background */
+.vacation {
+    background: url(../img/content/vacation/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 270px 74.5px 200px;
+    margin-top: -104px;
+    z-index: 9;
+}
+
+/* Vacation list */
+.vacation .vacation-container {
+    color: white;
+    text-align: center;
+}
+
+.vacation .search-holiday {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.vacation .search-holiday .underline-effect::before {
+    background-color: #ba71da;
+}
+
+.vacation .promotions {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+
+.vacation .vacation-choose-container {
+    margin-top: 65px;
+}
+
+.vacation .vacation-form {
+    display: inline-block;
+    position: relative;
+}
+
+.vacation .vacation-choose-list {
+    padding: 8px 25px;
+    width: 370px;
+    border-radius: 30px;
+    color: #a3a3a3;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.vacation .destination-icon {
+    position: absolute;
+    color: #c5c5c5;
+    font-size: 18px;
+    transform: translateY(-50%);
+    right: 25px;
+    top: 50%;
+    cursor: pointer;
+}
+
+/* Travel-list */
+.travel-container {
+    width: 50%;
+    margin: 55px auto 0;
+}
+
+.travel-container .travel-list {
+    padding: 0 15px;
+    margin: auto;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.travel-container .travel-item {
+    float: left;
+    width: 25%;
+}
+
+.travel-container .travel-cover {
+    background-color: rgba(0,0,0,0.35);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.travel-container .travel-cover:hover {
+    background-color: rgba(30,30,30,0.35);
+    transform: translateY(-5px);
+}
+
+.travel-container .travel-icon {
+    width: 40px;
+}
+
+.travel-container .travel-type {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 11px;
+    margin-top: 14px;
+    font-weight: 300;
+}
+

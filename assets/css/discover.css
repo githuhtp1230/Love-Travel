@@ -1,0 +1,56 @@
+
+/* Discover container */
+.discover-container {
+    margin-top: 80px;
+}
+
+/* Discover background */
+.discover-container .discover-background-1 {
+    background: url(../img/content/discover/discover1.jpg);
+}
+
+.discover-container .discover-background-2 {
+    background: url(../img/content/discover/discover2.jpg);
+}
+
+/* Discover-item */
+.discover-container .discover-item {
+    float: left;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.discover-container .discover-sub-heading {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.discover-container .discover-heading {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+.discover-container .discover-details-btn {
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #f3a46b;
+    padding: 15px 35px;
+    background-color: white;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.discover-container .discover-details-btn:hover {
+    transform: scale(1.05);
+}

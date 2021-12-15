@@ -1,0 +1,61 @@
+/* Next holiday section*/
+.next-holiday {
+    height: 235px;
+    width: 1349px;
+    background: url("../img/content/next-holiday.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+/* Next holiday container */
+.next-holiday .next-holiday-container {
+    display: flex;
+}
+
+.next-holiday .next-holiday-cover {
+    font-weight: bold;
+    color: white;
+    width: 400px;
+}
+
+.next-holiday-container p,
+.next-holiday-container span {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.next-holiday-container .next-holiday-heading .underline-effect::before {
+    background-color: #f76570;
+}
+
+/* View all packages container */
+.viewAll-packages-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewAll-packages-container .viewAll-package-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    color: #f76570;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    width: 170px;
+    transition: 0.3s;
+}
+
+.viewAll-packages-container .viewAll-package-btn:hover {
+    transform: scale(1.05);
+}
